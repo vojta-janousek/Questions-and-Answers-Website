@@ -2,6 +2,8 @@ Django==3.0
 djangorestframework==3.10.0
 django-rest-auth==0.9.5
 django-allauth==0.40.0
+django-registration==3.0.1
+django-crispy-forms==1.8.1
 
 flake8==3.7.0
 Pillow==6.2.1

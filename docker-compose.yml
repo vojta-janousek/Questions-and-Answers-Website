@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  quora_project:
+    build: .
+    command: python quora_project/manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"

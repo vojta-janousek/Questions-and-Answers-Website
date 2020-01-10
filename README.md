@@ -26,4 +26,13 @@ any 'account/' paths.
 
 Also, in very old Django versions, the form and add_form variables of a custom
 user admin have to be rewritten to replace all instance of User with
-get_user_model - they no longer contain any in newer Django versions. 
+get_user_model - they no longer contain any in newer Django versions.
+
+3) Installing Vue CLI: Install Node.js from their website, which also installs
+NPM (Node Package Module). Version checks are node -v and npm -v in console.
+
+npm i -g @vue/cli   (i install, -g global)
+
+vue create project-name
+cd project-name
+npm create serve

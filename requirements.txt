@@ -8,5 +8,5 @@ django-crispy-forms==1.8.1
 django-webpack-loader==0.6.0
 
 flake8==3.7.0
-Pillow==6.2.1
+#Pillow==6.2.1
 requests==2.22.0
